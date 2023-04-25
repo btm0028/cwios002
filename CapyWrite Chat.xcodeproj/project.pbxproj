@@ -7,16 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC41D7DF29D950B800174BE3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC41D7DE29D950B700174BE3 /* WebKit.framework */; };
+		FC440D5629DA03380082E73A /* PendingMFAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D5529DA03380082E73A /* PendingMFAView.swift */; };
+		FC440D5829DA05380082E73A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D5729DA05380082E73A /* SignUpView.swift */; };
+		FC440D5A29DA081B0082E73A /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D5929DA081B0082E73A /* ForgotPasswordView.swift */; };
+		FC440D5E29DA0A580082E73A /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D5D29DA0A580082E73A /* MessagesView.swift */; };
+		FC440D6029DA0A770082E73A /* RecipientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D5F29DA0A770082E73A /* RecipientsView.swift */; };
+		FC440D6229DA0A9E0082E73A /* AccountSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D6129DA0A9E0082E73A /* AccountSettingsView.swift */; };
+		FC440D6429DA0ABF0082E73A /* BlockedUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D6329DA0ABF0082E73A /* BlockedUsersView.swift */; };
+		FC440D6629DBEF180082E73A /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D6529DBEF180082E73A /* ProfileModel.swift */; };
+		FC440D6829DBF0CF0082E73A /* RecipientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D6729DBF0CF0082E73A /* RecipientsViewModel.swift */; };
+		FC440D6A29DBF2F50082E73A /* ProfileListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D6929DBF2F50082E73A /* ProfileListModel.swift */; };
+		FC440D6C29DD55180082E73A /* MessagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D6B29DD55180082E73A /* MessagesViewModel.swift */; };
+		FC440D6E29DD55DD0082E73A /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D6D29DD55DD0082E73A /* MessageModel.swift */; };
+		FC440D7029DD55EB0082E73A /* SenderCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D6F29DD55EB0082E73A /* SenderCardModel.swift */; };
+		FC440D7229DD56C50082E73A /* MessageAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D7129DD56C40082E73A /* MessageAPIModel.swift */; };
+		FC440D7529DE37E60082E73A /* SignalRClient in Frameworks */ = {isa = PBXBuildFile; productRef = FC440D7429DE37E60082E73A /* SignalRClient */; };
+		FC440D7729DE387E0082E73A /* SignalRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC440D7629DE387E0082E73A /* SignalRService.swift */; };
 		FCE0182029D905D70027D0A9 /* CapyWrite_ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE0181F29D905D70027D0A9 /* CapyWrite_ChatApp.swift */; };
-		FCE0182229D905D70027D0A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE0182129D905D70027D0A9 /* ContentView.swift */; };
+		FCE0182229D905D70027D0A9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE0182129D905D70027D0A9 /* LoginView.swift */; };
 		FCE0182429D905D90027D0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE0182329D905D90027D0A9 /* Assets.xcassets */; };
 		FCE0182729D905D90027D0A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE0182629D905D90027D0A9 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FC41D7DD29D9228100174BE3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FC41D7DE29D950B700174BE3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FC440D5529DA03380082E73A /* PendingMFAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingMFAView.swift; sourceTree = "<group>"; };
+		FC440D5729DA05380082E73A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		FC440D5929DA081B0082E73A /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		FC440D5D29DA0A580082E73A /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		FC440D5F29DA0A770082E73A /* RecipientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientsView.swift; sourceTree = "<group>"; };
+		FC440D6129DA0A9E0082E73A /* AccountSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsView.swift; sourceTree = "<group>"; };
+		FC440D6329DA0ABF0082E73A /* BlockedUsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedUsersView.swift; sourceTree = "<group>"; };
+		FC440D6529DBEF180082E73A /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		FC440D6729DBF0CF0082E73A /* RecipientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientsViewModel.swift; sourceTree = "<group>"; };
+		FC440D6929DBF2F50082E73A /* ProfileListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileListModel.swift; sourceTree = "<group>"; };
+		FC440D6B29DD55180082E73A /* MessagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewModel.swift; sourceTree = "<group>"; };
+		FC440D6D29DD55DD0082E73A /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		FC440D6F29DD55EB0082E73A /* SenderCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderCardModel.swift; sourceTree = "<group>"; };
+		FC440D7129DD56C40082E73A /* MessageAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAPIModel.swift; sourceTree = "<group>"; };
+		FC440D7629DE387E0082E73A /* SignalRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalRService.swift; sourceTree = "<group>"; };
 		FCE0181C29D905D70027D0A9 /* CapyWrite Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CapyWrite Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE0181F29D905D70027D0A9 /* CapyWrite_ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapyWrite_ChatApp.swift; sourceTree = "<group>"; };
-		FCE0182129D905D70027D0A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCE0182129D905D70027D0A9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FCE0182329D905D90027D0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCE0182629D905D90027D0A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,17 +72,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC440D7529DE37E60082E73A /* SignalRClient in Frameworks */,
+				FC41D7DF29D950B800174BE3 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC41D7D829D9226600174BE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC41D7DE29D950B700174BE3 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FCE0181329D905D70027D0A9 = {
 			isa = PBXGroup;
 			children = (
 				FCE0181E29D905D70027D0A9 /* CapyWrite Chat */,
 				FCE0181D29D905D70027D0A9 /* Products */,
+				FC41D7D829D9226600174BE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +108,23 @@
 		FCE0181E29D905D70027D0A9 /* CapyWrite Chat */ = {
 			isa = PBXGroup;
 			children = (
+				FC440D6129DA0A9E0082E73A /* AccountSettingsView.swift */,
+				FC440D6329DA0ABF0082E73A /* BlockedUsersView.swift */,
 				FCE0181F29D905D70027D0A9 /* CapyWrite_ChatApp.swift */,
-				FCE0182129D905D70027D0A9 /* ContentView.swift */,
+				FCE0182129D905D70027D0A9 /* LoginView.swift */,
+				FC440D5929DA081B0082E73A /* ForgotPasswordView.swift */,
+				FC440D7129DD56C40082E73A /* MessageAPIModel.swift */,
+				FC440D6D29DD55DD0082E73A /* MessageModel.swift */,
+				FC440D5D29DA0A580082E73A /* MessagesView.swift */,
+				FC440D6B29DD55180082E73A /* MessagesViewModel.swift */,
+				FC440D5529DA03380082E73A /* PendingMFAView.swift */,
+				FC440D6529DBEF180082E73A /* ProfileModel.swift */,
+				FC440D6929DBF2F50082E73A /* ProfileListModel.swift */,
+				FC440D5F29DA0A770082E73A /* RecipientsView.swift */,
+				FC440D6729DBF0CF0082E73A /* RecipientsViewModel.swift */,
+				FC440D6F29DD55EB0082E73A /* SenderCardModel.swift */,
+				FC440D7629DE387E0082E73A /* SignalRService.swift */,
+				FC440D5729DA05380082E73A /* SignUpView.swift */,
 				FCE0182329D905D90027D0A9 /* Assets.xcassets */,
 				FCE0182529D905D90027D0A9 /* Preview Content */,
 			);
@@ -77,12 +149,16 @@
 				FCE0181829D905D70027D0A9 /* Sources */,
 				FCE0181929D905D70027D0A9 /* Frameworks */,
 				FCE0181A29D905D70027D0A9 /* Resources */,
+				FC41D7DD29D9228100174BE3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "CapyWrite Chat";
+			packageProductDependencies = (
+				FC440D7429DE37E60082E73A /* SignalRClient */,
+			);
 			productName = "CapyWrite Chat";
 			productReference = FCE0181C29D905D70027D0A9 /* CapyWrite Chat.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +187,9 @@
 				Base,
 			);
 			mainGroup = FCE0181329D905D70027D0A9;
+			packageReferences = (
+				FC440D7329DE37E60082E73A /* XCRemoteSwiftPackageReference "SignalR-Client-Swift" */,
+			);
 			productRefGroup = FCE0181D29D905D70027D0A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +216,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE0182229D905D70027D0A9 /* ContentView.swift in Sources */,
+				FC440D7229DD56C50082E73A /* MessageAPIModel.swift in Sources */,
+				FC440D5829DA05380082E73A /* SignUpView.swift in Sources */,
+				FC440D5629DA03380082E73A /* PendingMFAView.swift in Sources */,
+				FCE0182229D905D70027D0A9 /* LoginView.swift in Sources */,
+				FC440D7029DD55EB0082E73A /* SenderCardModel.swift in Sources */,
+				FC440D6029DA0A770082E73A /* RecipientsView.swift in Sources */,
+				FC440D5A29DA081B0082E73A /* ForgotPasswordView.swift in Sources */,
+				FC440D6629DBEF180082E73A /* ProfileModel.swift in Sources */,
+				FC440D6429DA0ABF0082E73A /* BlockedUsersView.swift in Sources */,
+				FC440D6A29DBF2F50082E73A /* ProfileListModel.swift in Sources */,
+				FC440D6C29DD55180082E73A /* MessagesViewModel.swift in Sources */,
+				FC440D7729DE387E0082E73A /* SignalRService.swift in Sources */,
+				FC440D6E29DD55DD0082E73A /* MessageModel.swift in Sources */,
+				FC440D6229DA0A9E0082E73A /* AccountSettingsView.swift in Sources */,
+				FC440D5E29DA0A580082E73A /* MessagesView.swift in Sources */,
 				FCE0182029D905D70027D0A9 /* CapyWrite_ChatApp.swift in Sources */,
+				FC440D6829DBF0CF0082E73A /* RecipientsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +433,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC440D7329DE37E60082E73A /* XCRemoteSwiftPackageReference "SignalR-Client-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/moozzyk/SignalR-Client-Swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC440D7429DE37E60082E73A /* SignalRClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC440D7329DE37E60082E73A /* XCRemoteSwiftPackageReference "SignalR-Client-Swift" */;
+			productName = SignalRClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FCE0181429D905D70027D0A9 /* Project object */;
 }
